@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        $(function(){
+   
+    $('#head').hide();
+    $('#head').fadeToggle(1000);  
+    $('.tail').hide();
+    $('.tail').delay(1000).fadeToggle(1000);  
+});
+    </script>
+</head>
+<body>
+   
+    <div class="wrapper">
+       <h1 id="head">LOGIN HERE!!</h1>
+        <form class="p-3 mt-3" method="post">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="userName" id="userName" placeholder="Username">
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="password" id="pwd" placeholder="Password">
+            </div>
+            <input type="checkbox" id="showpass" id="pass">show password
+            <br><br> <button type="button" class="btn mt-3" id="Validate">Login</button>
+        </form>
+        <br>
+        <div class="pass">
+            <a href="#"><span class="tail">Forget password?</span></a> or <a href="index.html"><span class="tail">Sign up</span></a>
+        </div>
+    </div>
+</body>
+</html>

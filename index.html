@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(function(){
+    $('#hello').hide();
+    $('#hello').fadeToggle(1000);  
+    $('#reg').hide();
+    $('#reg').delay(1000).fadeToggle(1000);  
+    $('.head').hide();
+    $('.head').fadeToggle(1000);  
+});
+    </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./js/register.js"></script>
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="left">
+            <div class="gradient-text">
+                <h2 id="hello">HELLO!</h2>
+                <h3 id="reg">Register your account here!!</h3><br>
+            </div>
+               <div class="form-group">
+               <form method="POST">
+                <div class="col-md-12 text-center">
+                    <input class="form-control" type="text" id="name" placeholder="Enter your name" style="width:300px;" required>
+                    <br>
+                    
+                    <input class="form-control" type="text" id="dob" placeholder="Enter your DOB" style="width:300px;" required><br>
+    
+                    <input class="form-control" type="text" id="phone" placeholder="Enter your Phone no" style="width:300px;" required><br>
+    
+                    <input class="form-control" type="text" id="email" placeholder="Enter your email id" style="width:300px;" required><br>
+    
+                    <input class="form-control" type="password" id="password" placeholder="Enter your password" style="width:300px;" required><br>
+                    
+                   
+                </div>
+                <div>
+                    <button type="button" class="text-center" id="signup">SIGN UP</button>
+                   </div>
+               </form>
+               
+           </div>
+           </div>
+         </div> 
+    </div>
+<div class="maindiv"> 
+    <div class="right">
+        <h1 class="head">WELCOME!!</h1>
+        <div class="login">Already signed in?</div>
+            <button type="button" id="loginbutton" href="login.html">LOGIN</button>
+        
+    </div>
+</div>
+   
+</body>
+</html>

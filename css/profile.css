@@ -1,0 +1,71 @@
+.value{
+    text-align: center;
+}
+.profilename{
+    margin-right: 20px;
+}
+input{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    height:35px;
+    width:200px;
+}
+#result{
+    padding:10px;
+    color:darkblue;
+    font-size: 18px;;
+}
+.wrapper{
+    width: 400px;
+    min-height: 500px;
+    text-align: center;;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    float: left;
+    margin: 80px auto;
+    margin-left: 511px;
+    margin-right: 40px;
+    border-radius: 15px;
+    margin-top:45px;
+
+}
+img{
+    border-radius: 50%;
+}
+.hd{
+    background-color: red;
+    background-image: linear-gradient(#ff8a00, #e52e71);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    text-align: left;
+}
+.head{
+    background-color: red;
+    background-image: linear-gradient(#ff8a00, #e52e71);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body{
+    align-items: center;
+    font-size: 15px;
+
+}
+img{
+    width:200px;
+    height:200px;
+}
+#btn{
+    height:35px;
+    width:150px;
+    border:none;
+    border-radius: 5px;
+    background: linear-gradient(#ff8a00, #d9296a);
+}
